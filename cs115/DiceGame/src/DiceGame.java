@@ -213,7 +213,7 @@ public class DiceGame {
 		
 		/* Fetch old data */
 		try {
-			File scoreBoard = new File("../scoreBoard.txt");
+			File scoreBoard = new File("./cs115/DiceGame/scoreBoard.txt");
 		    Scanner reader = new Scanner(scoreBoard);
 		    while(reader.hasNextLine()) {
 		    	String score = reader.nextLine();
@@ -237,7 +237,7 @@ public class DiceGame {
 			writeback += score + "\n";
 		}
 		try {
-			FileWriter writer = new FileWriter("../scoreBoard.txt");
+			FileWriter writer = new FileWriter("./cs115/DiceGame/scoreBoard.txt");
 			writer.write(writeback);
 			writer.close();
 			System.out.println(" Score has been recorded!");
@@ -255,7 +255,7 @@ public class DiceGame {
 		
 		/* Fetch top 50 */
 		try {
-			File scoreBoard = new File("../scoreBoard.txt");
+			File scoreBoard = new File("./cs115/DiceGame/scoreBoard.txt");
 		    Scanner reader = new Scanner(scoreBoard);
 		    for (int i = 1; i <= 50; i++) {
 		    	if (reader.hasNextLine()) {
