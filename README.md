@@ -1,12 +1,16 @@
 # ReUniProj
 
-This repository has a list of all the computer science courses I've taken in university.
-In this repository are remakes of projects I've done for the courses or new projects that uses what was taught in that course.
-The remakes are **NOT** the originals that I had submitted! All the code here are by me, from scratch with the originals as reference.
-Why am I remaking them? just for fun or for practice / review! 
+This repository is basically a journal of my journey through the computer science major in university.
+I've listed all the cs courses I've taken in university and a brief explaination about the course.
+Many of these courses had a course project and I wanted to try and go back and recreate them from scratch.
+Some of them did not have projects but I think it had enough content to create a new project that shows what I've learned from the course.
+These remakes are **NOT** the originals I or my team submitted! All the code here are by me.
+I may use the original as reference so that I cover the same things but with original code.
+
+Why am I remaking them? Its just for fun and practice / review! 
 The main idea / functions for the most part are the same, the remakes may add some polish, extra features, etc. 
-Some of them may actually be simpler then the original...
-I'll still credit my partners from the original if I had worked on the projects in a group, just seemed right to do so...?
+Some of them may actually be simpler then the original... 
+I'll still include the names of my partners from the original if I had worked on the projects in a group, just seemed right to do so...?
 
 &nbsp;
 
@@ -41,14 +45,16 @@ I'll still credit my partners from the original if I had worked on the projects 
 
 ## cs100 | Introduction to the Profession
 
+cs100 was one of the first courses we had to take, it was to show what the industry is like and what the major is like. 
+We got to work with real companies in this course to experience first hand what it would be like to work in the industry!
+There was no real course project for us but if we chose to work with a company during this course, we had sort of a project to work on.
+
 ***College Finance Calculator***
 
-About: The topic was a financial calculator to help with planning out debt and financial aid.
-We didn't really write any code for it, mainly just google slides for the ui. Just learning about the work flow
-of working in the tech industry, not really learning any programming.
+**About:** My group and the company we worked with decided to make a financial calculator to help with planning out debt and financial aid.
+We didn't really write any code for it, mainly just google slides for the ui. Just learning about the work flow of working in the tech industry, not really learning any programming.
 
-Original Contributors: Alisha Khan, Alexander Garcia, Mehal Amitkumar Gosalia, Nhan Hoang, Thien Le, Hnin Nu Wai, and me
-Language: ?
+**Original Contributors:** Alisha Khan, Alexander Garcia, Mehal Amitkumar Gosalia, Nhan Hoang, Thien Le, Hnin Nu Wai, and I.
 
 &nbsp;
 
@@ -60,62 +66,20 @@ Language: ?
 
 ## cs115 | Object Oriented Programming I
 
+cs115 was the first real programming course we had to take. We learn about basic programming practices and java syntax.
+
 ***Dice Game***
 
-About: The real dice game where you roll 2 die and try to eliminate all the digits 1 to 10 but in a java terminal.
-Learning and getting used to programming, starting with basic java.
+About: The course project we had was a dice game where you roll 2 die and try to eliminate all the numbers 1 to 12. The ui was in the java terminal.
+2 dies were rolled and you get 2 numbers, you can either sum the numbers and eliminate that number or to eliminate the 2 individual numbers. 
+You lose if neither option is availabe or you will after elimiating all 12 numbers.
+For the remake, I wanted to make the real game that this project seemed to be based on, *Shut the Box*.
 
 Original Contributors: Aung Kham Naung and me
 
 &nbsp;
 
-The first page the user sees is the main menu which looks like:
 
-		               Dice Game               
-		 [p] to play
-		 [b] to see score board
-		 [e] to exit
-
-All the menus have a similar syntax. The charactor within the [ ] is what should be entered to pick that option.
-
-The scoreboard shows the top 50 scores stored in the text file. 
-
-		                Top 50               
-		 01.    mee               101
-		 02.    rfv               097
-		 03.    ---               ---
-   
-User would need to navigate to the text file manually if they wish to see more then just the top 50 scores.
-
-The UI for the actual game:
-
-		 Round [1]
-		                Board                
-		 01 02 03 04 05 06 07 08 09 10 11 12 
-		 o  o  o  x  x  o  o  o  o  o  o  o 
-		 You rolled: 2 & 5
-		 What would you like to do?
-		 [c] to combine
-		 [s] to split
-		 [g] to give up
-
-Two dice are rolled and user can choose:
-- to 'split' to drop both numbers from the board: o -> x under that number.
-- or 'combine' to drop the number equal to the sum of the 2 rolled numbers.
-- or 'give up' which results in the lost screen.
-                                           
-This implementation does **not force** a lost screen, it will simply prompt the user to choose another option if the one they picked was invalid.
-
-The lost screen:
-
-		                  You Lost!               
-		 Score: 20
-		 [---] type 3 char to record your score!
-		 [q] to quit without recording your score
-
-User can give a three character name to be recorded in the score board or quit without recording their score.
-
-The win screen is basically the same, other then that it only triggers when there are no 'o's on the board.
 
 [Table of Contents](#table-of-contents)
 
