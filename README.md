@@ -435,7 +435,7 @@ Original Contributors: ---
 
 ## cs584 | Machine Learning
 
-***Custom Data Frame***
+***Credit Card Fraud Detection***
 
 About: Making an algorithm that will help detect credit card fraud. 
 Using supervised and unsupervised learning techniques such as Kernal regression, clustering, and Gaussian mixture model to train
